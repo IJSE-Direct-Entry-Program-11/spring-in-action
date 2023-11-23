@@ -1,0 +1,39 @@
+http://localhost:8080/params/method1?param1=ijse&param2=dep
+
+###
+http://localhost:8080/params/method2?param1=ijse&param2=dep
+
+###
+http://localhost:8080/params/method3?param1=abc&param2=true&param3=10&param4=2220.256
+
+###
+http://localhost:8080/params/method4?page=2&size=50
+
+###
+http://localhost:8080/headers/method1
+
+###
+http://localhost:8080/headers/method2
+x-ijse: ijse
+x-dep: 11
+
+###
+PUT http://localhost:8080/headers/method3
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Kasun",
+  "address": "Galle"
+}
+
+###
+
+GET http://localhost:8080/cookies/method2
+Cookie: cookie1=ijse;abc=dep-11
+
+
+
+
+
+

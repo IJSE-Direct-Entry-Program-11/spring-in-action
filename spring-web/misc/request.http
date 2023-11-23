@@ -1,0 +1,74 @@
+### Mapping Rule1
+GET http://localhost:8080/mappings///
+
+### Mapping Rule2
+GET http://localhost:8080/mappings/2u%23e1
+
+###
+GET http://localhost:8080/mappings/1u2e1
+
+### Mapping Rule3
+GET http://localhost:8080/mappings/rule2
+
+###
+GET http://localhost:8080/mappings/rule2*
+
+###
+GET http://localhost:8080/mappings/rule2
+
+###
+GET http://localhost:8080/mappings/rule2abcdef123456
+
+###
+GET http://localhost:8080/mappings/rue3
+
+###
+GET http://localhost:8080/mappings/rule2abcdef123456////
+
+### Mapping Rule4
+http://localhost:8080/mappings/ru*e3
+
+###
+http://localhost:8080/mappings/rule3
+
+###
+http://localhost:8080/mappings/ruabcedf123456e3
+
+### Mapping Rule5
+http://localhost:8080/mappings/rule4/abc//////
+
+###
+http://localhost:8080/mappings/rule4/
+
+### Mapping Rule6
+http://localhost:8080/mappings/rule5/abc/rest
+
+###
+http://localhost:8080/mappings/rule5//rest
+
+### Mapping Rule7
+http://localhost:8080/mappings/rule6/abc/edf/fdsdfasa/adfdsf
+
+###
+http://localhost:8080/mappings/rule6
+
+### Mapping Rule8
+http://localhost:8080/mappings/rule7/rest
+
+###
+http://localhost:8080/mappings/rule7/abc/rest
+
+###
+http://localhost:8080/mappings/rule7/abc/edf/ijse/kakk//rest
+
+### Mapping Rule9
+http://localhost:8080/mappings/rule8/10/kasun
+
+### Mapping Rule10
+http://localhost:8080/mappings/rule9/C123
+
+### Mapping Rule10
+http://localhost:8080/mappings/rule9/456v
+
+### Mapping Rule11
+http://localhost:8080/mappings/rule10/adasfdsaf.php
